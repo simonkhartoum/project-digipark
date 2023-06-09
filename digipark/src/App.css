@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSide,
+.center,
+.rightSide {
+  flex: 1;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-image: linear-gradient(to right, black , white);
+}
